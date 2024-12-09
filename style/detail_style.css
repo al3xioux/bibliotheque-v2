@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'lemon';
+    src: url("../font/lemon_milk/LEMONMILK-Regular.otf") format("opentype");
+}
+
+html{
+    overflow-x: clip;
+    background-color: #FFF6E9;
+}
+
+body{
+    margin: 0;
+    z-index: 1;
+}
+
+                        /* NAV BARRE*/
+
+nav{
+    background-color: #CAA177;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    z-index: 4;
+}
+.meauxbiblio{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.meauxbiblio a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 35%;
+    height: 75px;
+}
+.nom{
+    margin-left: 40%;
+    font-size: 1.9em;
+    font-family: 'lemon';
+    margin-top: -36%;
+}
+
+.connexion{
+    position: relative;
+    left: 40%;
+    bottom: 45%;
+    margin: 0 auto;
+    width: 100px;
+
+}
+    
+.connexion a{
+    text-decoration: none;
+    color: #FFF6E9;
+    left: -30%;
+    font-family: 'lemon';
+
+}
+    
+.connexion li{
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+}
+    
+.sub{
+    display: none;
+    position: absolute;
+    width: 150px;
+    background-color: #B17844;
+}
+    
+.sub li{
+    display: block;
+    padding: 10px;
+}
+    
+.connexion li a{
+    display: block;
+}
+    
+.connexion li a:hover{
+    color: #000000;
+}
+    
+.connexion li:hover .sub{
+    display: block;
+}
+
+
+/* FIN NAV BARRE*/
+
+.box-cov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover{
+    display: flex;
+    margin-top: 6%;
+    margin-bottom: -5%;
+}
+
+.box-texte{
+    background-color: #B17844 ;
+    margin-left: 13%;
+    width: 75%;
+    border-radius: 25px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.texte{
+    text-align: center;
+    font-family: 'lemon';
+}
+.texte p{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+.texte .res {
+    text-align: justify ;
+}
+
+            /* FOOTER */
+
+.footer{
+    background-color: #CAA177 ;
+    height: 50px;
+    display: flex;
+    margin: 0;
+}
+
+.copyright{
+    margin-top: 1%;
+    margin-right: 45%;
+    margin-left: 45%;
+}
+
+
+                            /* responcivité*/
+
+
+@media screen and (max-width: 768px)
+{
+    
+    .copyright{
+        margin-right: 30%;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 996px) {
+
+    
+    .copyright{
+        margin-left: 43%;
+        margin-right: 25%;
+        margin-top: 4%;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+   
+    .copyright{
+        margin-left: 44%;
+        margin-right: 20%;
+        margin-top: 2%;
+    }
+
+}
+                            
